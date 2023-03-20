@@ -1,0 +1,15 @@
+/Users/andrejvoropaev/RiderProjects/L.R.1_23/L.R.1_23/bin/Debug/net7.0/L.R.1_23
+/Users/andrejvoropaev/RiderProjects/L.R.1_23/L.R.1_23/bin/Debug/net7.0/L.R.1_23.deps.json
+/Users/andrejvoropaev/RiderProjects/L.R.1_23/L.R.1_23/bin/Debug/net7.0/L.R.1_23.runtimeconfig.json
+/Users/andrejvoropaev/RiderProjects/L.R.1_23/L.R.1_23/bin/Debug/net7.0/L.R.1_23.dll
+/Users/andrejvoropaev/RiderProjects/L.R.1_23/L.R.1_23/bin/Debug/net7.0/L.R.1_23.pdb
+/Users/andrejvoropaev/RiderProjects/L.R.1_23/L.R.1_23/obj/Debug/net7.0/L.R.1_23.csproj.AssemblyReference.cache
+/Users/andrejvoropaev/RiderProjects/L.R.1_23/L.R.1_23/obj/Debug/net7.0/L.R.1_23.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andrejvoropaev/RiderProjects/L.R.1_23/L.R.1_23/obj/Debug/net7.0/L.R.1_23.AssemblyInfoInputs.cache
+/Users/andrejvoropaev/RiderProjects/L.R.1_23/L.R.1_23/obj/Debug/net7.0/L.R.1_23.AssemblyInfo.cs
+/Users/andrejvoropaev/RiderProjects/L.R.1_23/L.R.1_23/obj/Debug/net7.0/L.R.1_23.csproj.CoreCompileInputs.cache
+/Users/andrejvoropaev/RiderProjects/L.R.1_23/L.R.1_23/obj/Debug/net7.0/L.R.1_23.dll
+/Users/andrejvoropaev/RiderProjects/L.R.1_23/L.R.1_23/obj/Debug/net7.0/refint/L.R.1_23.dll
+/Users/andrejvoropaev/RiderProjects/L.R.1_23/L.R.1_23/obj/Debug/net7.0/L.R.1_23.pdb
+/Users/andrejvoropaev/RiderProjects/L.R.1_23/L.R.1_23/obj/Debug/net7.0/L.R.1_23.genruntimeconfig.cache
+/Users/andrejvoropaev/RiderProjects/L.R.1_23/L.R.1_23/obj/Debug/net7.0/ref/L.R.1_23.dll
