@@ -7,13 +7,18 @@ namespace L.R._1_23
     {
         public static void Main()
         {
+            /* Prog - 2
+             
             int[,] matrix = new int[5, 5];
             SwapMaxMin unit = new SwapMaxMin();
             unit.Matrix = matrix;
             unit.FillMatrix();
             unit.PrintMatrix();
             unit.Swap();
-            /*string number = Console.ReadLine();
+            unit.PrintMatrix();*/
+            
+            /* Prog - 1
+            string number = Console.ReadLine();
             Palindrome palindrome = new Palindrome(number);
             palindrome.IsPalindrome();*/
         }

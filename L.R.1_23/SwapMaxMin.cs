@@ -34,19 +34,19 @@ public class SwapMaxMin
 
     public void Swap()
     {
-
-        int[][] indexes = new int[4][];
+        int[][] indexes = new int[2][];
         indexes = FindIndexes();
-        foreach (var item in indexes)
-        {
-            foreach (var i in item)
-            {
-                Console.WriteLine(i);
-            }
-        }
-        //matrix[indexMax[0], indexMax[1]] = min;
-        //matrix[indexMin[0], indexMin[1]] = max;
+        Console.WriteLine();
+        int max = _matrix[indexes[0][0], indexes[0][1]];
+        int min = _matrix[indexes[1][0], indexes[1][1]];
+        
+        Console.WriteLine($"MAX - {max} with indexes: {indexes[0][0]}, {indexes[0][1]}\n" +
+                          $"MIN - {min} with indexes: {indexes[1][0]}, {indexes[1][1]}");
 
+        Console.WriteLine("\nSwaping...");
+        
+        _matrix[indexes[0][0], indexes[0][1]] = min;
+        _matrix[indexes[1][0], indexes[1][1]] = max;
     }
 
     private int[][] FindIndexes()
