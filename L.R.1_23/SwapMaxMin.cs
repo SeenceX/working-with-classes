@@ -30,6 +30,7 @@ public class SwapMaxMin
                 Console.Write(String.Format("{0,4}", _matrix[i,j] + " "));
             }
         }
+        Console.WriteLine();
     }
 
     public void Swap()
