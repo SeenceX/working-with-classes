@@ -7,8 +7,10 @@ namespace L.R._1_23
     {
         public static void Main()
         {
+            HumanGrowth hg = new HumanGrowth();
+            hg.FillList();
+            hg.PrintList();
             /* Prog - 2
-             
             int[,] matrix = new int[5, 5];
             SwapMaxMin unit = new SwapMaxMin();
             unit.Matrix = matrix;
@@ -16,7 +18,7 @@ namespace L.R._1_23
             unit.PrintMatrix();
             unit.Swap();
             unit.PrintMatrix();*/
-            
+
             /* Prog - 1
             string number = Console.ReadLine();
             Palindrome palindrome = new Palindrome(number);
