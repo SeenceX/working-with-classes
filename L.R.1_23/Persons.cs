@@ -1,4 +1,4 @@
-namespace L.R._1_23;
+namespace persons;
 
 public class Persons
 {
