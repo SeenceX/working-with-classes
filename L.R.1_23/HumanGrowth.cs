@@ -20,38 +20,26 @@ public class HumanGrowth
         _list.ForEach(person => Console.
             WriteLine($"{person.getSecondName()} - {person.getHeight()}"));
     }
-}
 
-
-/*
-void third()
-{
-    List<Persons> list = new List<Persons>();
-    list.Add(new Persons("Ivanov", 180));
-    list.Add(new Persons("Andreev", 194));
-    list.Add(new Persons("Vasilev", 174));
-    list.Add(new Persons("Saharov", 168));
-    list.Add(new Persons("Levedev", 183));
-    list.Add(new Persons("Mihailov", 169));
-    Console.WriteLine("Список:");
-    list.ForEach(person => Console.
-        WriteLine($"{person.getSecondName()} - {person.getHeight()}"));
-    
-    var avg = 0;
-    foreach (var person in list)
+    public void PrintAboveAverage()
     {
-        avg += person.getHeight();
+        var avg = FindAvgHeight();
+        Console.WriteLine($"Средний рост равен {avg}\n");
+        Console.WriteLine("Удовлетворяют условию по росту");
+        foreach (var person in _list)
+        {
+            if (person.getHeight() >= avg)
+                Console.WriteLine($"{person.getSecondName()} - {person.getHeight()}");
+        }
     }
-
-    avg /= list.Count;
-    Console.WriteLine($"{avg} - {list.Count}");
-    Console.WriteLine($"Средний рост равен {avg}\n");
-    Console.WriteLine("Удовлетворяют условию по росту");
-    foreach (var person in list)
+    private int FindAvgHeight()
     {
-        if (person.getHeight() >= avg)
-            Console.WriteLine($"{person.getSecondName()} - {person.getHeight()}");
+        var avg = 0;
+        foreach (var person in _list)
+        {
+            avg += person.getHeight();
+        }
+        avg /= _list.Count;
+        return avg;
     }
 }
-third();
- */
