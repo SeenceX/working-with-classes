@@ -40,8 +40,7 @@ public class Menu
                         break;
 
                     case 1:
-                        string number = Console.ReadLine();
-                        Palindrome palindrome = new Palindrome(number);
+                        Palindrome palindrome = new Palindrome();
                         palindrome.IsPalindrome();
                         break;
 
