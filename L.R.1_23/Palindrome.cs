@@ -3,9 +3,9 @@ namespace task1;
 public class Palindrome
 {
     private string _x;
-    public Palindrome(string x)
+    public Palindrome()
     {
-        _x = x;
+        _x = inputNumber();
     }
 
     public bool IsPalindrome()
