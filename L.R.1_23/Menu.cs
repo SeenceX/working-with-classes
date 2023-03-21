@@ -5,19 +5,30 @@ using task3;
 
 public class Menu
 {
+    private void PrintMenu()
+    {
+        Console.WriteLine("Выберите программу для запуска:");
+        Console.WriteLine("1 - Программа 1");
+        Console.WriteLine("2 - Программа 2");
+        Console.WriteLine("3 - Программа 3");
+        Console.WriteLine("0 - Выход");
+    }
+
+    private string InputCommand()
+    {
+        Console.Write("Введите номер программы: ");
+        string input = Console.ReadLine();
+        return input;
+    }
+    
     public void Start()
     {
         bool exit = false;
         while (!exit)
         {
-           Console.WriteLine("Выберите программу для запуска:");
-            Console.WriteLine("1 - Программа 1");
-            Console.WriteLine("2 - Программа 2");
-            Console.WriteLine("3 - Программа 3");
-            Console.WriteLine("0 - Выход");
-
-            Console.Write("Введите номер программы: ");
-            string input = Console.ReadLine();
+            
+            PrintMenu();
+            string input = InputCommand();
             int programNumber;
 
             if (int.TryParse(input, out programNumber))
